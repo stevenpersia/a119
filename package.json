@@ -23,20 +23,22 @@
 		"prebuild": "rimraf dist",
 		"build": "NODE_ENV=production babel src/lib --out-dir dist --copy-files"
 	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"underscore": "^1.9.1"
+	},
 	"devDependencies": {
 		"@babel/cli": "^7.4.3",
 		"@babel/core": "^7.4.3",
 		"@babel/preset-env": "^7.4.3",
 		"@babel/preset-react": "^7.0.0",
 		"babel-preset-react-app": "^7.0.2",
-		"classnames": "^2.2.6",
 		"keymirror": "^0.1.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"react-scripts": "^2.1.8",
-		"rimraf": "^2.6.3",
-		"underscore": "^1.9.1"
+		"rimraf": "^2.6.3"
 	},
 	"browserslist": [
 		">0.2%",
