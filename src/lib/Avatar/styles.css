@@ -1,0 +1,176 @@
+.avatar {
+	position: relative;
+	overflow: hidden;
+	background-color: var(--color-neutral-09); /* TEST */
+}
+
+.avatar img {
+	width: 100%;
+	height: auto;
+}
+
+.avatar-hover:hover {
+	background-color: var(--color-neutral-04);
+	cursor: pointer;
+}
+
+.avatar-hover:hover img {
+	opacity: 0.5;
+}
+
+/* AVATAR VARIANT */
+.avatar--variant-circle {
+	border-radius: 50%;
+}
+.avatar--variant-square {
+	border-radius: 3px;
+}
+
+/* AVATAR SIZE */
+.avatar--size-tiny {
+	width: 24px;
+	height: 24px;
+}
+
+.avatar--size-small {
+	width: 36px;
+	height: 36px;
+}
+
+.avatar--size-medium {
+	width: 48px;
+	height: 48px;
+}
+
+.avatar--size-large {
+	width: 64px;
+	height: 64px;
+}
+
+.avatar--size-big {
+	width: 100px;
+	height: 100px;
+}
+
+/* AVATAR PRESENCE */
+.avatar--presence-online {
+	background-color: var(--color-success-04);
+}
+.avatar--presence-busy {
+	background-color: var(--color-danger-05);
+}
+.avatar--presence-away {
+	background-color: var(--color-warning-05);
+}
+.avatar--presence-focus {
+	background-color: var(--color-help-06);
+}
+.avatar--presence-offline {
+	background-color: var(--color-neutral-06);
+}
+
+span[class^="avatar--presence-"],
+span[class*=" avatar--presence-"] {
+	position: absolute;
+	border-radius: 50%;
+}
+
+/* POSTION PRESENCE - CIRCLE */
+.avatar--size-tiny span[class^="avatar--presence-"],
+.avatar--size-tiny span[class*="avatar--presence-"] {
+	border: 1px solid var(--color-grayscale-11);
+	width: 6px;
+	height: 6px;
+	bottom: 0;
+	right: 0;
+}
+
+.avatar--size-small span[class^="avatar--presence-"],
+.avatar--size-small span[class*="avatar--presence-"] {
+	border: 1px solid var(--color-grayscale-11);
+	width: 8px;
+	height: 8px;
+	bottom: 1px;
+	right: 1px;
+}
+
+.avatar--size-medium span[class^="avatar--presence-"],
+.avatar--size-medium span[class*="avatar--presence-"] {
+	border: 1px solid var(--color-grayscale-11);
+	width: 9px;
+	height: 9px;
+	bottom: 2px;
+	right: 3px;
+}
+
+.avatar--size-large span[class^="avatar--presence-"],
+.avatar--size-large span[class*="avatar--presence-"] {
+	border: 2px solid var(--color-grayscale-11);
+	width: 10px;
+	height: 10px;
+	bottom: 3px;
+	right: 3px;
+}
+
+.avatar--size-big span[class^="avatar--presence-"],
+.avatar--size-big span[class*="avatar--presence-"] {
+	border: 2px solid var(--color-grayscale-11);
+	width: 14px;
+	height: 14px;
+	bottom: 4px;
+	right: 8px;
+}
+
+/* POSITION PRESENCE - SQUARE */
+.avatar--size-tiny.avatar--variant-square span[class^="avatar--presence-"],
+.avatar--size-tiny.avatar--variant-square span[class*="avatar--presence-"] {
+	border: 1px solid var(--color-grayscale-11);
+	width: 6px;
+	height: 6px;
+	bottom: -2px;
+	right: -2px;
+}
+
+.avatar--size-small.avatar--variant-square span[class^="avatar--presence-"],
+.avatar--size-small.avatar--variant-square span[class*="avatar--presence-"] {
+	border: 1px solid var(--color-grayscale-11);
+	width: 8px;
+	height: 8px;
+	bottom: -2px;
+	right: -2px;
+}
+
+.avatar--size-medium.avatar--variant-square span[class^="avatar--presence-"],
+.avatar--size-medium.avatar--variant-square span[class*="avatar--presence-"] {
+	border: 1px solid var(--color-grayscale-11);
+	width: 9px;
+	height: 9px;
+	bottom: -2px;
+	right: -2px;
+}
+
+.avatar--size-large.avatar--variant-square span[class^="avatar--presence-"],
+.avatar--size-large.avatar--variant-square span[class*="avatar--presence-"] {
+	border: 2px solid var(--color-grayscale-11);
+	width: 10px;
+	height: 10px;
+	bottom: -3px;
+	right: -3px;
+}
+
+.avatar--size-big.avatar--variant-square span[class^="avatar--presence-"],
+.avatar--size-big.avatar--variant-square span[class*="avatar--presence-"] {
+	border: 2px solid var(--color-grayscale-11);
+	width: 14px;
+	height: 14px;
+	bottom: -4px;
+	right: -4px;
+}
+
+/* AVATAR STATUS */
+.avatar--status-approved {
+}
+.avatar--status-declined {
+}
+.avatar--status-locked {
+}

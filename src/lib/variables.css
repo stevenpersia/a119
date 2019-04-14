@@ -1,0 +1,125 @@
+:root {
+	/* FONTS */
+	--font-family-roboto: "Roboto", sans-serif;
+	--font-family-open-sans: "Open Sans", sans-serif;
+
+	--font-weight-thin: 100;
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semi-bold: 600;
+	--font-weight-bold: 700;
+	--font-weight-extra-bold: 800;
+	--font-weight-black: 900;
+
+	--transition-default: cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+
+	/* GRAYSCALE */
+	--color-grayscale-01: #222222;
+	--color-grayscale-02: #3b3b3b;
+	--color-grayscale-03: #515151;
+	--color-grayscale-04: #626262;
+	--color-grayscale-05: #7e7e7e;
+	--color-grayscale-06: #9e9e9e;
+	--color-grayscale-07: #b1b1b1;
+	--color-grayscale-08: #cfcfcf;
+	--color-grayscale-09: #e1e1e1;
+	--color-grayscale-10: #f7f7f7;
+	--color-grayscale-11: #ffffff;
+
+	/* NEUTRAL */
+	--color-neutral-01: #102a43;
+	--color-neutral-02: #243b53;
+	--color-neutral-03: #334e68;
+	--color-neutral-04: #486581;
+	--color-neutral-05: #627d98;
+	--color-neutral-06: #829ab1;
+	--color-neutral-07: #9fb3c8;
+	--color-neutral-08: #bcccdc;
+	--color-neutral-09: #d9e2ec;
+	--color-neutral-10: #f0f4f8;
+
+	/* PRIMARY - Customize later ? */
+	--color-primary-01: #102a43;
+	--color-primary-02: #243b53;
+	--color-primary-03: #334e68;
+	--color-primary-04: #486581;
+	--color-primary-05: #627d98;
+	--color-primary-06: #829ab1;
+	--color-primary-07: #9fb3c8;
+	--color-primary-08: #bcccdc;
+	--color-primary-09: #d9e2ec;
+	--color-primary-10: #f0f4f8;
+
+	/* SECONDARY - Customize later ? */
+	--color-secondary-01: #102a43;
+	--color-secondary-02: #243b53;
+	--color-secondary-03: #334e68;
+	--color-secondary-04: #486581;
+	--color-secondary-05: #627d98;
+	--color-secondary-06: #829ab1;
+	--color-secondary-07: #9fb3c8;
+	--color-secondary-08: #bcccdc;
+	--color-secondary-09: #d9e2ec;
+	--color-secondary-10: #f0f4f8;
+
+	/* SUCCESS */
+	--color-success-01: #014d40;
+	--color-success-02: #0c6b58;
+	--color-success-03: #147d64;
+	--color-success-04: #199473;
+	--color-success-05: #27ab83;
+	--color-success-06: #3ebd93;
+	--color-success-07: #65d6ad;
+	--color-success-08: #8eedc7;
+	--color-success-09: #c6f7e2;
+	--color-success-10: #effcf6;
+
+	/* WARNING */
+	--color-warning-01: #513c06;
+	--color-warning-02: #7c5e10;
+	--color-warning-03: #a27c1a;
+	--color-warning-04: #c99a2e;
+	--color-warning-05: #e9b949;
+	--color-warning-06: #f0b429;
+	--color-warning-07: #f7c948;
+	--color-warning-08: #f8e3a3;
+	--color-warning-09: #fcefc7;
+	--color-warning-10: #fffaeb;
+
+	/* DANGER */
+	--color-danger-01: #610404;
+	--color-danger-02: #780a0a;
+	--color-danger-03: #911111;
+	--color-danger-04: #a61b1b;
+	--color-danger-05: #ba2525;
+	--color-danger-06: #d64545;
+	--color-danger-07: #e66a6a;
+	--color-danger-08: #f29b9b;
+	--color-danger-09: #facdcd;
+	--color-danger-10: #ffeeee;
+
+	/* HELP */
+	--color-help-01: #240754;
+	--color-help-02: #34126f;
+	--color-help-03: #421987;
+	--color-help-04: #51279b;
+	--color-help-05: #653cad;
+	--color-help-06: #724bb7;
+	--color-help-07: #8662c7;
+	--color-help-08: #a081d9;
+	--color-help-09: #cfbcf2;
+	--color-help-10: #eae2f8;
+
+	/* OTHERS */
+	--color-blue-01: #003e6b;
+	--color-blue-02: #0a558c;
+	--color-blue-03: #0f609b;
+	--color-blue-04: #186faf;
+	--color-blue-05: #2680c2;
+	--color-blue-06: #4098d7;
+	--color-blue-07: #62b0e8;
+	--color-blue-08: #84c5f4;
+	--color-blue-09: #b6e0fe;
+	--color-blue-10: #dceefb;
+}

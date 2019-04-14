@@ -1,0 +1,453 @@
+.button {
+	font-family: var(--font-family-open-sans);
+	font-weight: var(--font-weight-regular);
+	transition: background 0.4s ease;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	height: 40px;
+	padding: 0 20px;
+	font-size: 13px;
+	cursor: pointer;
+	outline: none;
+}
+
+.button-fullwidth {
+	width: 100%;
+	display: block;
+}
+
+/*___ DISABLED ___*/
+.button-disabled {
+	cursor: not-allowed;
+	color: var(--color-neutral-06) !important;
+	background: var(--color-neutral-10) !important;
+}
+
+button[class*="button--variant-outlined-"].button-disabled,
+button[class*="button--variant-dashed-"].button-disabled,
+button[class*="button--variant-link-"].button-disabled,
+button[class*="button--variant-outlined-"]:hover.button-disabled,
+button[class*="button--variant-dashed-"]:hover.button-disabled,
+button[class*="button--variant-link-"]:hover.button-disabled {
+	background: none !important;
+}
+
+button[class*="button--variant-outlined-"]:hover.button-disabled,
+button[class*="button--variant-dashed-"]:hover.button-disabled {
+	border-color: var(--color-neutral-08) !important;
+}
+
+/*___ LOADER ___*/
+@keyframes loader {
+	to {
+		opacity: 0.1;
+		transform: translate3d(0, -5px, 0);
+	}
+}
+
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader > div {
+	width: 8px;
+	height: 8px;
+	margin: 5px 2px 0 2px;
+	background: #fff;
+	border-radius: 50%;
+	animation: loader 0.6s infinite alternate;
+}
+
+.loader > div:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+.loader > div:nth-child(3) {
+	animation-delay: 0.4s;
+}
+
+.button--variant-outlined-primary .loader > div,
+.button--variant-dashed-primary .loader > div,
+.button--variant-link-primary .loader > div {
+	background: var(--color-primary-02);
+}
+
+.button--variant-outlined-secondary .loader > div,
+.button--variant-dashed-secondary .loader > div,
+.button--variant-link-secondary .loader > div {
+	background: var(--color-secondary-05);
+}
+
+.button--variant-outlined-success .loader > div,
+.button--variant-dashed-success .loader > div,
+.button--variant-link-success .loader > div {
+	background: var(--color-success-05);
+}
+
+.button--variant-outlined-warning .loader > div,
+.button--variant-dashed-warning .loader > div,
+.button--variant-link-warning .loader > div {
+	background: var(--color-warning-06);
+}
+
+.button--variant-outlined-danger .loader > div,
+.button--variant-dashed-danger .loader > div,
+.button--variant-link-danger .loader > div {
+	background: var(--color-danger-06);
+}
+
+.button--variant-outlined-help .loader > div,
+.button--variant-dashed-help .loader > div,
+.button--variant-link-help .loader > div {
+	background: var(--color-help-06);
+}
+
+/*___ PRIMARY ___*/
+.button--type-primary {
+	background-color: var(--color-primary-02);
+	color: var(--color-grayscale-11);
+}
+
+.button--type-primary:hover {
+	background-color: var(--color-primary-03);
+}
+
+.button--type-primary:active {
+	background-color: var(--color-primary-01);
+}
+
+/*___ SECONDARY ___*/
+.button--type-secondary {
+	background-color: var(--color-secondary-06);
+	color: var(--color-grayscale-11);
+}
+
+.button--type-secondary:hover {
+	background-color: var(--color-secondary-07);
+}
+
+.button--type-secondary:active {
+	background-color: var(--color-secondary-05);
+}
+
+/*___ SUCCESS ___*/
+.button--type-success {
+	background-color: var(--color-success-04);
+	color: var(--color-grayscale-11);
+}
+
+.button--type-success:hover {
+	background-color: var(--color-success-05);
+}
+
+.button--type-success:active {
+	background-color: var(--color-success-03);
+}
+
+/*___ WARNING ___*/
+.button--type-warning {
+	background-color: var(--color-warning-06);
+	color: var(--color-grayscale-11);
+}
+
+.button--type-warning:hover {
+	background-color: var(--color-warning-07);
+}
+
+.button--type-warning:active {
+	background-color: var(--color-warning-04);
+}
+
+/*___ DANGER ___*/
+.button--type-danger {
+	background-color: var(--color-danger-06);
+	color: var(--color-grayscale-11);
+}
+
+.button--type-danger:hover {
+	background-color: var(--color-danger-07);
+}
+
+.button--type-danger:active {
+	background-color: var(--color-danger-05);
+}
+
+/*___ HELP ___*/
+.button--type-help {
+	background-color: var(--color-help-06);
+	color: var(--color-grayscale-11);
+}
+
+.button--type-help:hover {
+	background-color: var(--color-help-07);
+}
+
+.button--type-help:active {
+	background-color: var(--color-help-05);
+}
+
+/******************************* VARIANT OUTLINED *******************************/
+button[class^="button--variant-outlined-"],
+button[class*="button--variant-outlined-"] {
+	background: transparent;
+}
+
+.button--variant-outlined-primary:hover,
+.button--variant-outlined-secondary:hover,
+.button--variant-outlined-success:hover,
+.button--variant-outlined-warning:hover,
+.button--variant-outlined-danger:hover,
+.button--variant-outlined-help:hover {
+	background: var(--color-neutral-10);
+}
+
+.button--variant-outlined-primary {
+	border-color: var(--color-neutral-08);
+	color: var(--color-primary-02);
+}
+
+.button--variant-outlined-primary:hover {
+	border-color: var(--color-primary-02);
+	background: var(--color-neutral-10);
+}
+
+.button--variant-outlined-primary:active {
+	background: var(--color-primary-09);
+}
+
+.button--variant-outlined-secondary {
+	border-color: var(--color-neutral-08);
+	color: var(--color-secondary-05);
+}
+
+.button--variant-outlined-secondary:hover {
+	border-color: var(--color-secondary-06);
+	background: var(--color-neutral-10);
+}
+
+.button--variant-outlined-secondary:active {
+	background: var(--color-secondary-09);
+}
+
+.button--variant-outlined-success {
+	border-color: var(--color-neutral-08);
+	color: var(--color-success-05);
+}
+
+.button--variant-outlined-success:hover {
+	border-color: var(--color-success-04);
+	background: var(--color-success-10);
+}
+
+.button--variant-outlined-success:active {
+	background: var(--color-success-09);
+}
+
+.button--variant-outlined-warning {
+	border-color: var(--color-neutral-08);
+	color: var(--color-warning-06);
+}
+
+.button--variant-outlined-warning:hover {
+	border-color: var(--color-warning-06);
+	background: var(--color-warning-10);
+}
+
+.button--variant-outlined-warning:active {
+	background: var(--color-warning-09);
+}
+
+.button--variant-outlined-danger {
+	border-color: var(--color-neutral-08);
+	color: var(--color-danger-06);
+}
+
+.button--variant-outlined-danger:hover {
+	border-color: var(--color-danger-07);
+	background: var(--color-danger-10);
+}
+
+.button--variant-outlined-danger:active {
+	background: var(--color-danger-09);
+}
+
+.button--variant-outlined-help {
+	border-color: var(--color-neutral-08);
+	color: var(--color-help-06);
+}
+
+.button--variant-outlined-help:hover {
+	border-color: var(--color-help-07);
+	background: var(--color-help-10);
+}
+
+.button--variant-outlined-help:active {
+	background: var(--color-help-09);
+}
+
+/******************************* VARIANT DASHED *******************************/
+button[class^="button--variant-dashed-"],
+button[class*="button--variant-dashed-"] {
+	background: transparent;
+	border-style: dashed;
+	border-color: var(--color-neutral-08);
+}
+
+.button--variant-dashed-primary {
+	color: var(--color-primary-02);
+}
+
+.button--variant-dashed-primary:hover {
+	border-color: var(--color-primary-02);
+	background: var(--color-neutral-10);
+}
+
+.button--variant-dashed-primary:active {
+	background: var(--color-primary-09);
+}
+
+.button--variant-dashed-secondary {
+	color: var(--color-secondary-05);
+}
+
+.button--variant-dashed-secondary:hover {
+	border-color: var(--color-secondary-06);
+	background: var(--color-neutral-10);
+}
+
+.button--variant-dashed-secondary:active {
+	background: var(--color-secondary-09);
+}
+
+.button--variant-dashed-success {
+	color: var(--color-success-05);
+}
+
+.button--variant-dashed-success:hover {
+	border-color: var(--color-success-05);
+	background: var(--color-success-10);
+}
+
+.button--variant-dashed-success:active {
+	background: var(--color-success-09);
+}
+
+.button--variant-dashed-warning {
+	color: var(--color-warning-06);
+}
+
+.button--variant-dashed-warning:hover {
+	border-color: var(--color-warning-06);
+	background: var(--color-warning-10);
+}
+
+.button--variant-dashed-warning:active {
+	background: var(--color-warning-09);
+}
+
+.button--variant-dashed-danger {
+	color: var(--color-danger-06);
+}
+
+.button--variant-dashed-danger:hover {
+	border-color: var(--color-danger-07);
+	background: var(--color-danger-10);
+}
+
+.button--variant-dashed-danger:active {
+	background: var(--color-danger-09);
+}
+
+.button--variant-dashed-help {
+	color: var(--color-help-06);
+}
+
+.button--variant-dashed-help:hover {
+	border-color: var(--color-help-07);
+	background: var(--color-help-10);
+}
+
+.button--variant-dashed-help:active {
+	background: var(--color-help-09);
+}
+
+/******************************* VARIANT LINK *******************************/
+button[class^="button--variant-link-"],
+button[class*="button--variant-link-"] {
+	background: transparent;
+	border: 1px solid transparent;
+}
+
+.button--variant-link-primary {
+	color: var(--color-primary-02);
+}
+
+.button--variant-link-primary:hover {
+	background: var(--color-neutral-10);
+}
+
+.button--variant-link-primary:active {
+	background: var(--color-primary-09);
+}
+
+.button--variant-link-secondary {
+	color: var(--color-secondary-05);
+}
+
+.button--variant-link-secondary:hover {
+	background: var(--color-neutral-10);
+}
+
+.button--variant-link-secondary:active {
+	background: var(--color-secondary-09);
+}
+
+.button--variant-link-success {
+	color: var(--color-success-05);
+}
+
+.button--variant-link-success:hover {
+	background: var(--color-success-10);
+}
+
+.button--variant-link-success:active {
+	background: var(--color-success-09);
+}
+
+.button--variant-link-warning {
+	color: var(--color-warning-06);
+}
+
+.button--variant-link-warning:hover {
+	background: var(--color-warning-10);
+}
+
+.button--variant-link-warning:active {
+	background: var(--color-warning-09);
+}
+
+.button--variant-link-danger {
+	color: var(--color-danger-06);
+}
+
+.button--variant-link-danger:hover {
+	background: var(--color-danger-10);
+}
+
+.button--variant-link-danger:active {
+	background: var(--color-danger-09);
+}
+
+.button--variant-link-help {
+	color: var(--color-help-06);
+}
+
+.button--variant-link-help:hover {
+	background: var(--color-help-10);
+}
+
+.button--variant-link-help:active {
+	background: var(--color-help-09);
+}

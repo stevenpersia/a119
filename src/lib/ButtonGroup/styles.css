@@ -1,0 +1,84 @@
+.button-group {
+	display: flex;
+}
+
+/* DEFAULT */
+.button-group .button:first-child {
+	margin-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.button-group .button:last-child {
+	margin-left: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.button-group .button:not(:first-child) {
+	margin-left: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.button-group .button:not(:last-child) {
+	margin-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+/* 2 BUTTONS */
+
+/* OUTLINED */
+.button-group-2b button[class*="button--variant-outlined-"]:first-child {
+	margin-right: 0;
+}
+
+.button-group-2b button[class*="button--variant-outlined-"]:last-child {
+	margin-left: -1px;
+}
+
+.button-group-2b button[class*="button--variant-outlined-"]:hover {
+	z-index: 1;
+}
+
+/* DASHED */
+.button-group-2b button[class*="button--variant-dashed-"]:first-child {
+	margin-right: 0;
+}
+
+.button-group-2b button[class*="button--variant-dashed-"]:last-child {
+	margin-left: -1px;
+}
+
+.button-group-2b button[class*="button--variant-dashed-"]:hover {
+	z-index: 1;
+}
+
+/* 3 BUTTONS AND MORE */
+
+/* OUTLINED */
+.button-group-3am button[class*="button--variant-outlined-"]:first-child {
+	margin-right: -1px;
+}
+
+.button-group-3am button[class*="button--variant-outlined-"]:last-child {
+	margin-left: -1px;
+}
+
+.button-group-3am button[class*="button--variant-outlined-"]:hover {
+	z-index: 1;
+}
+
+/* DASHED */
+.button-group-3am button[class*="button--variant-dashed-"]:first-child {
+	margin-right: -1px;
+}
+
+.button-group-3am button[class*="button--variant-dashed-"]:last-child {
+	margin-left: -1px;
+}
+
+.button-group-3am button[class*="button--variant-dashed-"]:hover {
+	z-index: 1;
+}
