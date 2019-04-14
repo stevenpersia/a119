@@ -1,28 +1,43 @@
-<div style="text-align:center">
-<p>LOGO</p>
-<p><img alt="NPM" src="https://img.shields.io/npm/l/a119.svg?style=flat-square">
+<p align="center"><img alt="A119" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/a119.png" width="600"/></p>
+<p align="center"><img alt="NPM" src="https://img.shields.io/npm/l/a119.svg?style=flat-square">
 <img alt="npm" src="https://img.shields.io/npm/v/a119.svg?style=flat-square">
 <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/a119.svg?style=flat-square">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stevenpersia/a119.svg?style=flat-square"></p>
-</div>
 
 ## Overview
 
 **React Design System.** I'm certainly crazy but I want to create my own UI Framework to develop React applications faster. I will regularly update this readme to show the new components. I'll see what it gives. I'm not in a hurry. A better documentation will come soon. If you like it, feel free to star this repo ! :3
 
-## Screenshots
-
-
 ## Demo
 Check this out and have fun : https://codesandbox.io/s/n15n00o8z4
 
+## Screenshots
+<p align="center">
+<img alt="avatar" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/avatar.png" width="400" />
+<img alt="avatar-group" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/avatar-group.png" width="400" />
+<img alt="button" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/button.png" width="400" />
+<img alt="button-group" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/button-group.png" width="400" />
+<img alt="switch" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/switch.png" width="400" />
+<img alt="badge" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/badge.png" width="400" />
+<img alt="more" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/more.png" width="400" />
+</p>
+
 ## Installation and usage
 
-Install packages :
+Install package :
 ```
 npm install a119
 ```
 
+Import one component :
+```
+import { Avatar } from "a119";
+```
+
+Or multiple components :
+```
+import { Avatar, AvatarGroup } from "a119";
+```
 
 ## Props
 
