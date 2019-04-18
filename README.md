@@ -1,6 +1,7 @@
 <p align="center"><img alt="A119" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/a119.png" width="600"/></p>
 <p align="center"><img alt="NPM" src="https://img.shields.io/npm/l/a119.svg?style=flat-square">
 <img alt="npm" src="https://img.shields.io/npm/v/a119.svg?style=flat-square">
+<img alt="npm" src="https://img.shields.io/npm/dt/a119.svg?style=flat-square">
 <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/a119.svg?style=flat-square">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stevenpersia/a119.svg?style=flat-square"></p>
 
