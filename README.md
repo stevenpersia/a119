@@ -81,6 +81,21 @@ Soon !
 ### Switch
 Soon !
 
+### TextField
+| Prop         | Default     | Required | Type     | Example                                                    |
+| ------------ | ----------- | -------- | -------- | ---------------------------------------------------------- |
+| `name`       | X           | No      | string   | X                                                          |
+| `value`       | X | No       | string   | X |
+| `placeholder`    | X           | No       | string   | X                                |
+| `className`  | X           | No       | string   | X                                                          |
+| `isDisabled` | `false`     | No       | boolean  | `true` `false`                                             |
+| `helperText`  | X     | No       | string  | X                                           |
+| `error`    | `false`          | No       | boolean | `true` `false`                           |
+| `success`    | `false`          | No       | boolean | `true` `false`                             |
+| `fullwidth`  | `false`     | No       | boolean  | `true` `false`                                             |
+| `onBlur`  | X     | No       | function  | `() => alert("Hello world !");`                                           |
+| `onChange`  | X    | No       | function  | `() => alert("Hello world !");`                                      |
+
 ## Star, Fork, Clone & Contribute
 
 Feel free to contribute on this repository. If my work helps you, please give me back with a star. This means a lot to me and keeps me going!
