@@ -1,0 +1,73 @@
+.textfield {
+	margin-bottom: 24px;
+}
+
+.textfield input {
+	color: var(--color-neutral-03);
+	border-radius: 2px;
+	border: 1px solid var(--color-neutral-06);
+	padding: 13px;
+	-webkit-transition: border-color 0.3s;
+	transition: border-color 0.3s;
+	display: block;
+}
+
+.textfield input:focus {
+	border: 1px solid var(--color-neutral-03);
+	outline: none;
+}
+
+/* FULLWIDTH */
+.textfield-fullwidth input {
+	width: 100%;
+}
+
+/* ERROR & SUCCESS */
+.textfield-error input {
+	color: var(--color-danger-04);
+	border: 1px solid var(--color-danger-07);
+}
+
+.textfield-error input:focus {
+	border: 1px solid var(--color-danger-05);
+}
+
+.textfield-success input {
+	color: var(--color-success-03);
+	border: 1px solid var(--color-success-05);
+}
+
+.textfield-success input:focus {
+	border: 1px solid var(--color-success-03);
+}
+
+/* HELPER TEXT */
+.textfield .helper-text {
+	color: var(--color-neutral-03);
+	font-size: 12px;
+	font-family: var(--font-family-roboto);
+	font-weight: 300;
+	margin: 8px 0 0 5px;
+	display: block;
+}
+
+.textfield-error .helper-text {
+	color: var(--color-danger-04);
+}
+
+.textfield-success .helper-text {
+	color: var(--color-success-03);
+}
+
+/* DISABLED */
+.textfield input:disabled {
+	background-color: var(--color-neutral-09);
+}
+
+.textfield-error input:disabled {
+	background-color: var(--color-danger-09);
+}
+
+.textfield-success input:disabled {
+	background-color: var(--color-success-09);
+}
