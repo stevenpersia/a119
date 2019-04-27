@@ -90,8 +90,8 @@ Soon !
 | `className`  | X           | No       | string   | X                                                          |
 | `isDisabled` | `false`     | No       | boolean  | `true` `false`                                             |
 | `helperText`  | X     | No       | string  | X                                           |
-| `error`    | X           | No       | boolean | `true` `false`                           |
-| `success`    | X           | No       | boolean | `true` `false`                             |
+| `error`    | `false`          | No       | boolean | `true` `false`                           |
+| `success`    | `false`          | No       | boolean | `true` `false`                             |
 | `fullwidth`  | `false`     | No       | boolean  | `true` `false`                                             |
 | `onBlur`  | X     | No       | function  | `() => alert("Hello world !");`                                           |
 | `onChange`  | X    | No       | function  | `() => alert("Hello world !");`                                      |
