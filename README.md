@@ -16,10 +16,11 @@ Check this out and have fun : https://codesandbox.io/s/n15n00o8z4
 <p align="center">
 <img alt="avatar" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/avatar.png" width="500" />
 <img alt="avatar-group" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/avatar-group.png" width="500" />
+<img alt="badge" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/badge.png" width="500" />
 <img alt="button" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/button.png" width="500" />
 <img alt="button-group" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/button-group.png" width="500" />
 <img alt="switch" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/switch.png" width="500" />
-<img alt="badge" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/badge.png" width="500" />
+<img alt="textfield" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/textfield.png" width="500" />
 <img alt="more" src="https://raw.githubusercontent.com/stevenpersia/a119/master/github/more.png" width="500" />
 </p>
 
