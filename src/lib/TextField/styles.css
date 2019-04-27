@@ -19,7 +19,7 @@
 
 /* FULLWIDTH */
 .textfield-fullwidth input {
-	width: 100%;
+	width: calc(100% - 28px);
 }
 
 /* ERROR & SUCCESS */
