@@ -4,6 +4,7 @@
 <img alt="npm" src="https://img.shields.io/npm/dt/a119.svg?style=flat-square">
 <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/a119.svg?style=flat-square">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/stevenpersia/a119.svg?style=flat-square"></p>
+<p align="center"><b>This project is not maintained anymore :(</b></p>
 
 ## Overview
 
